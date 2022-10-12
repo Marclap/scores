@@ -1,7 +1,7 @@
 import Item2 from './Item2'
 
 export default function Bots() {
-    const data100Bots = [{ dia: 1, score: 123 }]
+    const data100Bots = [{ dia: 1, score: '123 seg' }]
     return (
         <section className="relative py-4 bg-cyanFondo">
             <div className="w-full mb-4 px-4">
