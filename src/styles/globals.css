@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cabeceraHeadTable {
+    @apply align-middle border border-solid py-3 text-2xl uppercase border-l-0 border-r-0 whitespace-nowrap bg-verdeFondo border-verdeborder font-extrabold;
+}
+
+.itemTabla {
+    @apply border-t-0 align-middle border-l-0 border-r-0 whitespace-nowrap p-4;
+}
