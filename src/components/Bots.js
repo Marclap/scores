@@ -1,7 +1,10 @@
 import Item2 from './Item2'
 
 export default function Bots() {
-    const data100Bots = [{ dia: 1, score: '123 seg' }]
+    const data100Bots = [
+        { dia: 1, score: '123 seg' },
+        { dia: 2, score: '129 seg' },
+    ]
     return (
         <section className="relative py-4 bg-cyanFondo">
             <div className="w-full mb-4 px-4">
@@ -25,48 +28,6 @@ export default function Bots() {
                                     <th className="px-3 cabeceraHeadTable">
                                         Score
                                     </th>
-                                    {/* <th className="px-3 cabeceraHeadTable">
-                                            Día 2
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 3
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 4
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 5
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 6
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 7
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 8
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 9
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 10
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 11
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 12
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 13
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 14
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 15
-                                        </th> */}
                                 </tr>
                             </thead>
                             <tbody>

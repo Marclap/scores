@@ -2,24 +2,24 @@ import Item from './Item'
 
 export default function Aimlab() {
     const data = [
-        { name: 'Detection', dia1: 44839 },
-        { name: 'Decisionshot', dia1: 52341 },
-        { name: 'Pentakill', dia1: 92677 },
-        { name: 'Spidershot', dia1: 63068 },
-        { name: 'Microshot', dia1: 43928 },
-        { name: 'Spidershot', dia1: 51568 },
-        { name: 'Microshot', dia1: 54668 },
-        { name: 'Strafetrack', dia1: 55340 },
-        { name: 'Circletrack', dia1: 50810 },
-        { name: 'Circleshot', dia1: 76979 },
-        { name: 'Switchtrack', dia1: 61533 },
-        { name: 'Strafeshot', dia1: 60817 },
-        { name: 'Strafetrack', dia1: 52696 },
-        { name: 'Spidershot', dia1: 56285 },
-        { name: 'Microshot', dia1: 51016 },
-        { name: 'Microflex', dia1: 51448 },
-        { name: 'Sixshot', dia1: 55913 },
-        { name: 'Spidershot 180', dia1: 48491 },
+        { name: 'Detection', dia1: 44839, dia2: 66939 },
+        { name: 'Decisionshot', dia1: 52341, dia2: 59164 },
+        { name: 'Pentakill', dia1: 92677, dia2: 108818 },
+        { name: 'Spidershot', dia1: 63068, dia2: 60170 },
+        { name: 'Microshot', dia1: 43928, dia2: 51418 },
+        { name: 'Spidershot', dia1: 51568, dia2: 56618 },
+        { name: 'Microshot', dia1: 54668, dia2: 55735 },
+        { name: 'Strafetrack', dia1: 55340, dia2: 55860 },
+        { name: 'Circletrack', dia1: 50810, dia2: 44660 },
+        { name: 'Circleshot', dia1: 76979, dia2: 77978 },
+        { name: 'Switchtrack', dia1: 61533, dia2: 70080 },
+        { name: 'Strafeshot', dia1: 60817, dia2: 81967 },
+        { name: 'Strafetrack', dia1: 52696, dia2: 47900 },
+        { name: 'Spidershot', dia1: 56285, dia2: 52875 },
+        { name: 'Microshot', dia1: 51016, dia2: 53940 },
+        { name: 'Microflex', dia1: 51448, dia2: 52702 },
+        { name: 'Sixshot', dia1: 55913, dia2: 62729 },
+        { name: 'Spidershot 180', dia1: 48491, dia2: 49902 },
     ]
     return (
         <section className="relative py-4 bg-cyanFondo">
@@ -44,48 +44,9 @@ export default function Aimlab() {
                                     <th className="px-3 cabeceraHeadTable">
                                         Día 1
                                     </th>
-                                    {/* <th className="px-3 cabeceraHeadTable">
-                                            Día 2
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 3
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 4
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 5
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 6
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 7
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 8
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 9
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 10
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 11
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 12
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 13
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 14
-                                        </th>
-                                        <th className="px-6 cabeceraHeadTable">
-                                            Día 15
-                                        </th> */}
+                                    <th className="px-3 cabeceraHeadTable">
+                                        Día 2
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody>

@@ -10,6 +10,9 @@ export default function Item({ dato }) {
                 <td className="itemTabla text-xl text-center font-extrabold">
                     {dato.dia1}
                 </td>
+                <td className="itemTabla text-xl text-center font-extrabold">
+                    {dato.dia2}
+                </td>
             </tr>
         </>
     )
