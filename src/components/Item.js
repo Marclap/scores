@@ -13,6 +13,9 @@ export default function Item({ dato }) {
                 <td className="itemTabla text-xl text-center font-extrabold">
                     {dato.dia2}
                 </td>
+                <td className="itemTabla text-xl text-center font-extrabold">
+                    {dato.dia3}
+                </td>
             </tr>
         </>
     )

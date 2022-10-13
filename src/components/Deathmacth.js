@@ -4,6 +4,7 @@ export default function Deathmatch() {
     const dataDeathmacth = [
         { dia: 1, score: '26/25' },
         { dia: 2, score: '20/21' },
+        { dia: 3, score: '37/25' },
     ]
     return (
         <section className="relative py-4 bg-cyanFondo">

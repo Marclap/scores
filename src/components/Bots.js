@@ -4,6 +4,7 @@ export default function Bots() {
     const data100Bots = [
         { dia: 1, score: '123 seg' },
         { dia: 2, score: '129 seg' },
+        { dia: 3, score: '126 seg' },
     ]
     return (
         <section className="relative py-4 bg-cyanFondo">
